@@ -1,0 +1,142 @@
+.btn-1 {   
+   background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 12px 15px; 
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+ 
+}
+.btn-1:hover {
+  background-color:#caedfa;
+  box-shadow: #c1e3f0 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+.btn-2 {
+    background:#cedaec;
+    padding: 12px 40px;
+    border: 2px solid #4b4f55;
+    color: #1d1e20;
+    border-radius: 30px;
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: capitalize;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.btn-2:hover,.btn-2:focus {
+   background: #4328b7;
+    color: #fff;
+    border: 2px solid #4328b7;
+} 
+.btn-3 {
+  appearance: button;
+
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  
+}
+
+.btn-3:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.btn-3:main,
+.btn-3:focus {
+  user-select: auto;
+}
+
+.btn-3:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.btn-3:disabled {
+  cursor: auto;
+}
+.btn-4 {
+      background: #4328b7;
+    padding: 12px 40px;
+    border: 2px solid #4328b7;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 15px;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    text-transform: capitalize;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+
+
+.btn-4:hover,.btn-4:focus {
+  background: #1b2032;
+ color: #fff;
+border: 2px solid #1b2032;
+}
+.btn-5 {
+    border-radius: 30px;
+        font-size: 15px;
+    color: white;
+    transition: .2s linear;
+    background: #0B63F6;
+   padding: 12px 15px; 
+}
+
+.btn-5:hover {
+   box-shadow: #003CC5 0 0px 0px 40px inset;
+}                
